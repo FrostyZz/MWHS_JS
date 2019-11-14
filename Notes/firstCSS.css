@@ -1,0 +1,25 @@
+p{
+	color:blue;
+	font-size:40pt;
+	border: 2px solid black;
+}
+
+#thisone{
+	color: red;
+	font-family: cursive, fantasy;
+}
+
+.these{
+	color:purple;
+}
+img:hover{
+	border:20px solid #008000
+}
+
+div div{ /* (css comment) nesting selctors */
+	border:5px solid #FF0000;
+}
+
+body: first-child{
+	
+}

@@ -1,0 +1,67 @@
+body{
+	color: #4A3416;
+	font-size:14pt;
+	font-family: Helvetica;
+}
+
+
+#mainHeading{
+	font-family: Georgia;
+	font-size: 40pt;
+	color: #F14A29;
+	background-color:#EFEFEF;  
+}
+img{
+	padding: 10px;
+	background-color: #F7F3DA;
+	border: 1px solid #4A3416;
+}
+
+.tableRow{
+	border-right: 1px solid black;
+	font-weight: bolder;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+	padding: 2px 10px 2px 10px; /* goes clockwise to determine order when their is 4 nums (top,right, bottom, left */
+}
+
+.subHeadings{
+	font-family: Georgia;
+	color: #F14A29;
+	background-color: #EFEFEF;
+}
+
+.subSubHeadings{
+	font-weight: bolder;
+}
+
+.commentsDiv{
+	background-color: #FAFAFA;
+	border: 1px dashed #DEDEDE;
+	margin: 10 px;	
+}
+
+.commentsImg{
+	background-color: #FAFAFA;
+	display: inline-block;
+	border: none;
+}
+
+.commentText{
+	display: inline-block;
+}
+
+a:link{
+	text-decoration: none;
+	color: #4A3416;
+}
+
+a:visited{
+	text-decoration: none;
+	color: #4A3416;
+}

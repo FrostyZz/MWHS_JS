@@ -1,0 +1,224 @@
+body {
+	background-color: #4D4936;
+	font-family: Helvetica;
+	color: #4D4936;
+}
+
+.wrapper {
+	border: 1px solid black;
+	background-image: "images/sushi.png";
+	background-color: #FAF9DC;
+	width: 900px;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	height: 900px;
+}
+
+.header {
+	background-image: none;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer {
+	font-family: Papyrus;
+	font-size: 10pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+.navbar {
+	text-align: left;
+	margin: auto;
+	font-weight: bolder;
+	font-family: Papyrus;
+	display: inline-block;
+	font-size: 18pt;
+	padding-bottom: 0px;
+}
+
+.home {
+	text-align: left;
+	font-weight: bolder;
+	margin: auto;
+	padding: 4pt;
+	padding-left: 8pt;
+	font-size: 18pt; display : inline-block;
+	background-image: url("images/bamboo-mat-texture-fade.png");
+	margin-bottom: -25px;
+	background-repeat: no-repeat;
+	color: black;
+	border: 1px solid #4D4936;
+	display: inline-block;
+}
+
+.imgcpt {
+	font-size: 9pt;
+}
+
+.otherbutton {
+	text-align: left;
+	padding: 4pt;
+	font-weight: bolder;
+	margin: auto;
+	padding-left: 8pt;
+	display: inline-block;
+	font-size: 18pt;
+	background-color: #D9D8BF;
+	margin-bottom: -25px;
+	background-repeat: no-repeat;
+	color: black;
+	border: 1px solid #4D4936;
+	font-weight: bolder;
+}
+
+.otherbutton:hover {
+	background-color: #ECEBD0;
+}
+
+p {
+	margin-bottom: 0px;
+	margin: 0px;
+}
+
+a {
+	margin-bottom: 0px;
+	font-weight: bolder;
+	color: #4D4936;
+	text-decoration: none;
+}
+
+border {
+	border: 1px solid #4D4936;
+}
+
+.content{
+
+	margin-top: -15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #4D4936;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+
+.text1{
+	padding-top: 20px;
+	padding-left: 10px;
+	font-weight: bolder;
+	display: inline-block;
+	font-size: 18pt;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+
+.text2{
+	padding-right: 10px;
+	font-size: 16pt;
+	display: inline-block;
+}
+
+.text3{
+	padding-right: 10px;
+	font-size: 16pt;
+	display: inline-block;
+}
+
+.text{
+	margin-left: 20px;
+	padding-right: -20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 1px dashed;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-right: 250px;
+}
+
+.text4{
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.text122{
+	font-weight: bolder;
+	display: inline-block;
+	font-size: 18pt;
+
+}
+
+
+.text1222{
+	display: inline-block;
+	font-size: 18pt;
+	padding-top: 10pt;
+padding-bottom: 10pt;
+}
+
+
+.blue{
+	color: blue;
+	font-weight: normal;
+}
+
+.text99{
+	padding-right: -10px;
+}
+
+.text9999{
+	padding-right: -10px;
+	text-indent: 40px;
+}
+
+
+.text999{
+	padding-right: -10px;
+	font-weight: bolder;
+}
+
+.somethinhg{
+	margin-top: -20px;
+	padding-top: 20px;
+	padding-left: 20px;
+		width: 600px;
+	border-top: 1px solid #4D4936;
+}
+
+
+.some222{
+	width: 600px;
+	margin-right: -20px;
+}
+
+
+.funfun{
+background-color: #EDECDA;
+width: 250px;
+float: right;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+border: 1px solid #4D4936;
+margin-top: -290px
+}
+
+#xd{
+	border: 1px solid gray;
+}
+
+.content2{
+	width: 600px;
+
+}
+
+.ree{
+	width: 200px;
+	float: right;
+	text-align: center;
+	margin-top: -125px
+}
