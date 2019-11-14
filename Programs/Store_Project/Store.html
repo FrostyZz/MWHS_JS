@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Store</title>
+      <script type="text/javascript" src = "Store.js"></script>
+      <link type = "text/css" rel = "stylesheet" href = "Store.css"/>
+   </head>
+   <body>
+      <div>
+         <h1 id = "heading">Store</h1>
+         <p><a class = "Nav" id = "Current" href = "Store.html">Home</a>
+            <a class = "Nav" href = "locAndHour.html">Avalibility</a>
+            <a class = "Nav" href = "AbUs.html">About Us</a>
+            <a class = "Nav" href = "cart.html">Cart</a>
+            Items:<span id = "items">0</span>
+            Total: $<span id = "total">0</span>
+         </p>
+         <div id = "imgDiv">
+            <img id = "mainImg" alt="" width="200px" height="200px" src = "https://ii2.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/25130_XXX_v1.tif&wid=650&cvt=jpeg" >
+         </div>
+         <div>
+            <p id =  "caps" > Wood Chair </p>
+         </div>
+         <div id = "CheckOut">
+            <p>Cost: $<span id = "price">200</span>
+               <button onclick = "ToCart()"> Add to Cart</button>
+            </p>
+         </div>
+         <div id = "subImgs">
+            <img onclick="Pic(0)" class = "otherImgs" alt="" width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRpq2rOfwl_fW2bZfXGar5HRBYyrYykbsHpJRwem_ISNxyr4x6">
+            <img onclick="Pic(1)" class = "otherImgs" alt="" width="200px" height="200px" src="https://ii2.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/25130_XXX_v1.tif&wid=650&cvt=jpeg">
+            <img onclick="Pic(2)" class = "otherImgs" alt="" width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQI5GMGRxXO9qNMCwsHbp11iFRKMP_NYwTRcAEXHLf18JaeafrY">
+            <img onclick="Pic(3)" class = "otherImgs" alt="" width="200px" height="200px" src="https://images-na.ssl-images-amazon.com/images/I/A1kwnYzMWbL._SX425_.jpg">
+            <img onclick="Pic(4)" class = "otherImgs" alt="" width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSn8_h2OUQLpFX2c3YP7TezC1opcE5fNOsxjKmjotOLFQimLwne">
+            <img onclick="Pic(5)" class = "otherImgs" alt="" width="200px" height="200px" src="https://images-na.ssl-images-amazon.com/images/I/61Gb8HI9FOL._SX425_.jpg">
+         </div>
+      </div>
+   </body>
+</html>

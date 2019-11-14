@@ -1,0 +1,49 @@
+body{
+}
+#heading{
+	text-align: center;
+	font-size: 40pt;
+	color: blue ;
+}
+#imgDiv{
+	text-align: center;
+}
+#mainImg{
+	height: 25%;
+	width: 50%;
+	border-radius: 5%;
+	border: 1px solid black;
+	height: 250px;
+}
+#caps{
+	text-align: center;
+	border: 1px solid black;
+	margin: auto;
+	width: 500px;
+}
+.otherImgs{
+	height: 10%;
+	width: 10%;
+	border-radius: 5%;
+	border: 1px solid black;
+}
+#subImgs{
+	text-align: center;
+}
+a:link{
+	font-weight: bolder ;
+	text-decoration: none;
+}
+.Nav{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	background-color: #c0c0c0;
+	padding: 0px 10px 10px 10px ;
+	margin-left: 10px;
+	font-size: 14pt;
+}
+#CheckOut{
+	text-align: center;
+	margin: auto;
+}
