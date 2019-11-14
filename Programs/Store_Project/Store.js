@@ -54,14 +54,8 @@ if ( hour >= 12 ) {
   if(hour != 12){
     hour = hour - 12;
   }
-  // if ( hour == 12 ) {
-  //   hour = checkTime(hour);
-  // document.getElementById("tt").innerHTML = hour+":"+minute+":"+ss+" AM";
-  // }
-  // else {
     hour = checkTime(hour);
     document.getElementById("tt").innerHTML = hour+":"+minute+":"+ss+" PM";
-//  }
 }
 else {
   document.getElementById("tt").innerHTML = hour+":"+minute+":"+ss+" AM";;
