@@ -1,27 +1,86 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Store</title>
-      <script type="text/javascript" src = "Store.js"></script>
-      <link type = "text/css" rel = "stylesheet" href = "Store.css"/>
-   </head>
-   <body onload="digi()">
-      <div>
-         <h1 id = "heading">Location</h1>
-         <p><a class = "Nav"  href = "Store.html">Home</a>
-            <a class = "Nav" id = "Current" href = "locAndHour.html">Avalibility</a>
-            <a class = "Nav"  href = "AbUs.html">About Us</a>
-            <a class = "Nav" href = "cart.html">Cart</a>
-         </p>
-         <p>Hours: 24/7.</p>
-           <p id="tt"></p> <!-- live timer -->
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Opening Hours</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src = "Store.js"></script>
+<script type="text/javascript" src = "script.js"></script>
+<link type = "text/css" rel = "stylesheet" href = "Store.css"/>
+<link type = "text/css" rel = "stylesheet" href = "style.css"/>
+
+</head>
+<body onload="digi()">
+<!-- partial:index.partial.html -->
 
 
+<div>
+   <h1 id = "heading">Location</h1>
+   <p><a class = "Nav"  href = "Store.html">Home</a>
+      <a class = "Nav" id = "Current" href = "locAndHour.html">Avalibility</a>
+      <a class = "Nav"  href = "AbUs.html">About Us</a>
+      <a class = "Nav" href = "cart.html">Cart</a>
+   </p>
 
+</div>
 
+<div id="main">
 
-           <iframe src="[REDACTED]</iframe>
+  <p id="tt"></p> <!-- live timer -->
+  <iframe src="[REDACTED]
+  <div id="timeDiv"></div>
+
+  <label class="viewOpen" for="modal-state">View Hours&nbsp;&nbsp;<i class="fa fa-clock-o"></i></label>
+  <input type="checkbox" name="modal-state" id="modal-state">
+
+  <div class="modal-overlay">
+    <label for="modal-state" class="modal-overlay-close"></label>
+    <div class="modal">
+      <label class="button-close" for="modal-state"><i class="fa fa-times"></i></label>
+      <h2>We're Open At These Times</h2>
+      <div id="Wednesday" class="dateTime">
+        <div class="day">Wednesday</div>
+        <div class="time">4pm - 12am</div>
       </div>
-   </body>
+      <br>
+      <div id="Thursday" class="dateTime">
+        <div class="day">Thursday</div>
+        <div class="time">4pm - 12am</div>
+      </div>
+      <br>
+      <div id="Friday" class="dateTime">
+        <div class="day">Friday</div>
+        <div class="time">4pm - 12am</div>
+      </div>
+      <br>
+      <div id="Saturday" class="dateTime">
+        <div class="day">Saturday</div>
+        <div class="time">1pm - 12am</div>
+      </div>
+      <br>
+      <div id="Sunday" class="dateTime">
+        <div class="day">Sunday</div>
+        <div class="time">1pm - 12am</div>
+      </div>
+      <br>
+      <div id="Monday" class="dateTime">
+        <div class="day">Monday</div>
+        <div class="time">Closed</div>
+      </div>
+      <br>
+      <div id="Tuesday" class="dateTime">
+        <div class="day">Tuesday</div>
+        <div class="time">Closed</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
 </html>

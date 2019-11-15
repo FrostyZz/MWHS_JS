@@ -35,8 +35,15 @@ function updateWTISINCART(nums) {
 
 
 
-// live updating clock
 
+// time
+// to get this to work put this in html
+//
+//
+//    <body onload="digi()">
+//    <p id="tt"></p>
+//
+//
 function digi() {
   var date = new Date(),
       hour = date.getHours(),
