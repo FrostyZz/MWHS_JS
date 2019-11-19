@@ -23,10 +23,10 @@ function ToCart() {
     document.getElementById("total").innerHTML = total + base;
     items = items + 1;
     base = total + base;
-    updateWTISINCART(nums)
+    updatewhatisincart(nums)
 }
 
-function updateWTISINCART(nums) {
+function updatewhatisincart(nums) {
     array.push(nums) // now we actually have an array of items.
     console.log(array)
 }
