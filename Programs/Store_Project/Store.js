@@ -1,4 +1,3 @@
-// Setting items for later
 var array = []
 var pics = ["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRpq2rOfwl_fW2bZfXGar5HRBYyrYykbsHpJRwem_ISNxyr4x6", "https://ii2.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/25130_XXX_v1.tif&wid=650&cvt=jpeg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQI5GMGRxXO9qNMCwsHbp11iFRKMP_NYwTRcAEXHLf18JaeafrY", "https://images-na.ssl-images-amazon.com/images/I/A1kwnYzMWbL._SX425_.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSn8_h2OUQLpFX2c3YP7TezC1opcE5fNOsxjKmjotOLFQimLwne", "https://images-na.ssl-images-amazon.com/images/I/61Gb8HI9FOL._SX425_.jpg"];
 var caps = ["Dark Brown Chair", "Wood Chair", "w/ Pillow", "No Pillow", "Red", "Classroom set"];
@@ -7,7 +6,6 @@ var divs =["main_page","locandhour","aboutus","cart"];
 var items = 0;
 var nums = 1;
 var base = 0;
-// Setting items for later
 
 
 function Pic(num) {
@@ -27,7 +25,7 @@ function ToCart() {
 }
 
 function updatewhatisincart(nums) {
-    array.push(nums) // increments total cart count
+    array.push(nums) // TODO: Cart
 }
 
 function toggleBackground(num){
@@ -62,8 +60,6 @@ else {
 }
 var time = setTimeout(digi,1000);
 }
-
-
 
 
 $(document).ready(function() {
